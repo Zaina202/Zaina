@@ -1,0 +1,30 @@
+//JavaScript variables can hold different data types: numbers, strings, objects and more:
+let length = 16;                               // Number
+let lastName = "jamal";                      // String
+let Z = {firstName:"Zaina", lastName:"rabah"};    // Object
+let x = 16 + "Volvo";
+
+
+//A JavaScript function is executed when "something" invokes it (calls it).
+function myFunction(p1, p2)
+ {
+    return p1 * p2;   // The function returns the product of p1 and p2
+  }
+  
+  //Variables are containers for storing data (values).
+  var x = 5;
+var y = 6;
+var z = x + y;
+
+//JavaScript has only one type of number. Numbers can be written with or without decimals.
+let x = 3.14;    // A number with decimals
+let y = 3;       // A number without decimals
+
+//loop
+for (let i = 0; i < 5; i++) 
+{
+  text += "The number is " + i + "<br>";
+}
+
+//Boolean()
+Boolean(4 > 5) 
